@@ -1,0 +1,152 @@
+[2020-07-14 09:38:13,530][Thread-2:123145396191232][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservie/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+[2020-07-14 09:38:13,532][Thread-2:123145396191232][task_id:django.server][basehttp.py:157][ERROR]["GET /webservie/test/ HTTP/1.1" 500 60075]
+[2020-07-15 16:40:42,662][Thread-9:123145598550016][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 59, in test
+    return HttpResponse(ResultUtils.createResult(ResultUtils.SysConstants.ERROR_CODE_SUCCESS, "test OK", dist(1)))
+  File "/Users/chokkint/PycharmProjects/pyservice/pyservice/utils.py", line 120, in createResult
+    SysConstants.DATASET_KEY: obj}, cls=DateJsonEncoder)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/chokkint/PycharmProjects/pyservice/pyservice/utils.py", line 28, in default
+    return json.JSONEncoder.default(obj)
+TypeError: default() missing 1 required positional argument: 'o'
+[2020-07-15 16:40:42,665][Thread-9:123145598550016][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 92130]
+[2020-07-15 16:55:11,847][Thread-1:123145356775424][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 62, in test
+    str2 = str2+","+s
+TypeError: can only concatenate str (not "numpy.float64") to str
+[2020-07-15 16:55:11,848][Thread-1:123145356775424][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 67814]
+[2020-07-15 16:55:38,686][Thread-1:123145368395776][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 62, in test
+    str2 = str2+","+str(s)
+TypeError: 'numpy.ndarray' object is not callable
+[2020-07-15 16:55:38,687][Thread-1:123145368395776][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 67764]
+[2020-07-15 16:56:37,550][Thread-7:123145509285888][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 62, in test
+    str2 = str2+","+str(s)
+TypeError: 'numpy.ndarray' object is not callable
+[2020-07-15 16:56:37,564][Thread-7:123145509285888][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 69653]
+[2020-09-24 16:51:49,159][Thread-2:123145339785216][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 25, in test2
+    ret = tt.test()
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py", line 10, in test
+    with open('data.json', 'r', encoding='utf8')as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'data.json'
+[2020-09-24 16:51:49,160][Thread-2:123145339785216][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 69796]
+[2020-09-24 16:53:38,426][Thread-1:123145419796480][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 25, in test2
+    ret = tt.test()
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py", line 10, in test
+    with open('data.json', 'r', encoding='utf8')as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'data.json'
+[2020-09-24 16:53:38,427][Thread-1:123145419796480][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 69796]
+[2020-09-24 16:54:26,179][Thread-2:123145512501248][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 25, in test2
+    ret = tt.test()
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py", line 10, in test
+    with open('/static/data.json', 'r', encoding='utf8')as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/static/data.json'
+[2020-09-24 16:54:26,180][Thread-2:123145512501248][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 69836]
+[2020-09-24 16:54:27,019][Thread-2:123145512501248][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 25, in test2
+    ret = tt.test()
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py", line 10, in test
+    with open('/static/data.json', 'r', encoding='utf8')as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/static/data.json'
+[2020-09-24 16:54:27,022][Thread-2:123145512501248][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 69836]
+[2020-09-24 16:54:47,637][Thread-2:123145581981696][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 25, in test2
+    ret = tt.test()
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py", line 10, in test
+    with open('/static/data.json', 'r', encoding='utf8')as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/static/data.json'
+[2020-09-24 16:54:47,638][Thread-2:123145581981696][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 69836]
+[2020-09-24 16:58:32,733][Thread-7:123145526018048][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 25, in test2
+    ret = tt.test()
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py", line 10, in test
+    with open('../data.json', 'r', encoding='utf8')as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '../data.json'
+[2020-09-24 16:58:32,739][Thread-7:123145526018048][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 71859]

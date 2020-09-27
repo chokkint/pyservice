@@ -1,0 +1,328 @@
+[2020-07-14 09:37:24,610][MainThread:4635966912][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-14 09:37:37,638][Thread-1:123145390936064][task_id:django.request][log.py:228][WARNING][Not Found: /]
+[2020-07-14 09:37:37,642][Thread-1:123145390936064][task_id:django.server][basehttp.py:157][WARNING]["GET / HTTP/1.1" 404 2034]
+[2020-07-14 09:37:38,265][Thread-1:123145390936064][task_id:django.request][log.py:228][WARNING][Not Found: /favicon.ico]
+[2020-07-14 09:37:38,266][Thread-1:123145390936064][task_id:django.server][basehttp.py:157][WARNING]["GET /favicon.ico HTTP/1.1" 404 2085]
+[2020-07-14 09:37:44,280][Thread-2:123145396191232][task_id:django.request][log.py:228][WARNING][Not Found: /webservice/test]
+[2020-07-14 09:37:44,281][Thread-2:123145396191232][task_id:django.server][basehttp.py:157][WARNING]["GET /webservice/test HTTP/1.1" 404 2097]
+[2020-07-14 09:37:44,852][Thread-1:123145390936064][task_id:django.request][log.py:228][WARNING][Not Found: /favicon.ico]
+[2020-07-14 09:37:44,853][Thread-1:123145390936064][task_id:django.server][basehttp.py:157][WARNING]["GET /favicon.ico HTTP/1.1" 404 2085]
+[2020-07-14 09:38:08,206][Thread-2:123145396191232][task_id:django.request][log.py:228][WARNING][Not Found: /webservie/]
+[2020-07-14 09:38:08,207][Thread-2:123145396191232][task_id:django.server][basehttp.py:157][WARNING]["GET /webservie/ HTTP/1.1" 404 2134]
+[2020-07-14 09:38:08,366][Thread-1:123145390936064][task_id:django.request][log.py:228][WARNING][Not Found: /favicon.ico]
+[2020-07-14 09:38:08,367][Thread-1:123145390936064][task_id:django.server][basehttp.py:157][WARNING]["GET /favicon.ico HTTP/1.1" 404 2085]
+[2020-07-14 09:38:13,447][Thread-2:123145396191232][task_id:django.server][basehttp.py:157][INFO]["GET /webservie/test HTTP/1.1" 301 0]
+[2020-07-14 09:38:13,530][Thread-2:123145396191232][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservie/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+[2020-07-14 09:38:13,532][Thread-2:123145396191232][task_id:django.server][basehttp.py:157][ERROR]["GET /webservie/test/ HTTP/1.1" 500 60075]
+[2020-07-14 09:38:13,702][Thread-1:123145390936064][task_id:django.request][log.py:228][WARNING][Not Found: /favicon.ico]
+[2020-07-14 09:38:13,703][Thread-1:123145390936064][task_id:django.server][basehttp.py:157][WARNING]["GET /favicon.ico HTTP/1.1" 404 2085]
+[2020-07-14 09:40:27,060][MainThread:4635966912][task_id:django.utils.autoreload][autoreload.py:222][INFO][/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py changed, reloading.]
+[2020-07-14 09:40:27,891][MainThread:4531805632][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-14 09:40:40,472][Thread-1:123145553510400][task_id:django.server][basehttp.py:157][INFO]["GET /webservie/test/ HTTP/1.1" 200 68]
+[2020-07-15 06:49:51,203][MainThread:4582972864][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 06:49:54,175][Thread-1:123145349996544][task_id:django.request][log.py:228][WARNING][Not Found: /]
+[2020-07-15 06:49:54,176][Thread-1:123145349996544][task_id:django.server][basehttp.py:157][WARNING]["GET / HTTP/1.1" 404 2032]
+[2020-07-15 06:49:54,761][Thread-2:123145355251712][task_id:django.request][log.py:228][WARNING][Not Found: /favicon.ico]
+[2020-07-15 06:49:54,762][Thread-2:123145355251712][task_id:django.server][basehttp.py:157][WARNING]["GET /favicon.ico HTTP/1.1" 404 2083]
+[2020-07-15 06:49:59,903][Thread-2:123145355251712][task_id:django.request][log.py:228][WARNING][Not Found: /]
+[2020-07-15 06:49:59,903][Thread-2:123145355251712][task_id:django.server][basehttp.py:157][WARNING]["GET / HTTP/1.1" 404 2032]
+[2020-07-15 06:50:14,015][Thread-1:123145349996544][task_id:django.request][log.py:228][WARNING][Not Found: /webservice/test]
+[2020-07-15 06:50:14,018][Thread-1:123145349996544][task_id:django.server][basehttp.py:157][WARNING]["GET /webservice/test HTTP/1.1" 404 2095]
+[2020-07-15 06:50:14,220][Thread-2:123145355251712][task_id:django.request][log.py:228][WARNING][Not Found: /favicon.ico]
+[2020-07-15 06:50:14,220][Thread-2:123145355251712][task_id:django.server][basehttp.py:157][WARNING]["GET /favicon.ico HTTP/1.1" 404 2083]
+[2020-07-15 06:50:19,090][Thread-2:123145355251712][task_id:django.request][log.py:228][WARNING][Not Found: /webservice/test]
+[2020-07-15 06:50:19,091][Thread-2:123145355251712][task_id:django.server][basehttp.py:157][WARNING]["GET /webservice/test HTTP/1.1" 404 2095]
+[2020-07-15 06:50:19,953][Thread-1:123145349996544][task_id:django.request][log.py:228][WARNING][Not Found: /webservice/]
+[2020-07-15 06:50:19,960][Thread-1:123145349996544][task_id:django.server][basehttp.py:157][WARNING]["GET /webservice/ HTTP/1.1" 404 2083]
+[2020-07-15 06:50:20,105][Thread-2:123145355251712][task_id:django.request][log.py:228][WARNING][Not Found: /favicon.ico]
+[2020-07-15 06:50:20,107][Thread-2:123145355251712][task_id:django.server][basehttp.py:157][WARNING]["GET /favicon.ico HTTP/1.1" 404 2083]
+[2020-07-15 06:51:04,190][MainThread:4538551744][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 06:51:05,546][Thread-1:123145505976320][task_id:django.request][log.py:228][WARNING][Not Found: /]
+[2020-07-15 06:51:05,548][Thread-1:123145505976320][task_id:django.server][basehttp.py:157][WARNING]["GET / HTTP/1.1" 404 2033]
+[2020-07-15 06:51:11,569][Thread-2:123145511231488][task_id:django.request][log.py:228][WARNING][Not Found: /]
+[2020-07-15 06:51:11,570][Thread-2:123145511231488][task_id:django.server][basehttp.py:157][WARNING]["GET / HTTP/1.1" 404 2033]
+[2020-07-15 06:51:12,380][Thread-2:123145511231488][task_id:django.request][log.py:228][WARNING][Not Found: /webservice/]
+[2020-07-15 06:51:12,381][Thread-2:123145511231488][task_id:django.server][basehttp.py:157][WARNING]["GET /webservice/ HTTP/1.1" 404 2136]
+[2020-07-15 06:51:13,928][Thread-2:123145511231488][task_id:django.server][basehttp.py:157][INFO]["GET /webservice/test HTTP/1.1" 301 0]
+[2020-07-15 06:51:14,055][Thread-2:123145511231488][task_id:django.server][basehttp.py:157][INFO]["GET /webservice/test/ HTTP/1.1" 200 68]
+[2020-07-15 06:51:14,453][Thread-1:123145505976320][task_id:django.server][basehttp.py:157][INFO]["GET /webservice/test/ HTTP/1.1" 200 68]
+[2020-07-15 07:03:29,569][MainThread:4680887744][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 07:03:31,864][Thread-7:123145382797312][task_id:django.request][log.py:228][WARNING][Not Found: /]
+[2020-07-15 07:03:31,866][Thread-7:123145382797312][task_id:django.server][basehttp.py:157][WARNING]["GET / HTTP/1.1" 404 2033]
+[2020-07-15 07:03:59,324][Thread-9:123145388052480][task_id:django.security.csrf][log.py:228][WARNING][Forbidden (CSRF cookie not set.): /webservice/test/]
+[2020-07-15 07:03:59,326][Thread-9:123145388052480][task_id:django.server][basehttp.py:157][WARNING]["POST /webservice/test/ HTTP/1.1" 403 2864]
+[2020-07-15 15:09:43,695][MainThread:4634680768][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 15:09:45,245][Thread-7:123145492496384][task_id:django.request][log.py:228][WARNING][Not Found: /]
+[2020-07-15 15:09:45,248][Thread-7:123145492496384][task_id:django.server][basehttp.py:157][WARNING]["GET / HTTP/1.1" 404 2033]
+[2020-07-15 15:10:09,548][MainThread:4634537408][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 15:10:10,633][Thread-7:123145547251712][task_id:django.request][log.py:228][WARNING][Not Found: /]
+[2020-07-15 15:10:10,636][Thread-7:123145547251712][task_id:django.server][basehttp.py:157][WARNING]["GET / HTTP/1.1" 404 2033]
+[2020-07-15 15:11:53,480][MainThread:4634537408][task_id:django.utils.autoreload][autoreload.py:222][INFO][/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py changed, reloading.]
+[2020-07-15 15:11:56,540][MainThread:4591816128][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 15:12:34,243][MainThread:4591816128][task_id:django.utils.autoreload][autoreload.py:222][INFO][/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py changed, reloading.]
+[2020-07-15 15:12:36,976][MainThread:4476186048][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 15:13:22,968][MainThread:4506512832][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 15:15:07,742][Thread-9:123145426337792][task_id:django.request][log.py:228][WARNING][Not Found: /]
+[2020-07-15 15:15:07,744][Thread-9:123145426337792][task_id:django.server][basehttp.py:157][WARNING]["GET / HTTP/1.1" 404 2033]
+[2020-07-15 15:19:05,329][Thread-11:123145421082624][task_id:django][webservice.py:56][INFO][<WSGIRequest: POST '/webservice/test/'>]
+[2020-07-15 15:19:19,371][MainThread:4506512832][task_id:django.utils.autoreload][autoreload.py:222][INFO][/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py changed, reloading.]
+[2020-07-15 15:19:21,295][MainThread:4721970624][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 15:20:30,960][Thread-7:123145555894272][task_id:django][webservice.py:56][INFO][<WSGIRequest: POST '/webservice/test/'>]
+[2020-07-15 15:20:30,963][Thread-7:123145555894272][task_id:django.server][basehttp.py:157][INFO]["POST /webservice/test/ HTTP/1.1" 200 68]
+[2020-07-15 15:23:38,527][Thread-9:123145555894272][task_id:django][webservice.py:56][INFO][<WSGIRequest: POST '/webservice/test/'>]
+[2020-07-15 15:23:38,531][Thread-9:123145555894272][task_id:django.server][basehttp.py:157][INFO]["POST /webservice/test/ HTTP/1.1" 200 68]
+[2020-07-15 15:25:44,566][Thread-11:123145555894272][task_id:django][webservice.py:56][INFO][<WSGIRequest: POST '/webservice/test/'>]
+[2020-07-15 16:18:04,861][MainThread:4525260224][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 16:18:35,549][MainThread:4525260224][task_id:django.utils.autoreload][autoreload.py:222][INFO][/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py changed, reloading.]
+[2020-07-15 16:18:37,182][MainThread:4696063424][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 16:22:27,576][Thread-2:123145407864832][task_id:django][webservice.py:56][INFO][[0.15865525 0.5        0.84134475]]
+[2020-07-15 16:22:27,581][Thread-2:123145407864832][task_id:django][webservice.py:57][INFO][1.959963984540054]
+[2020-07-15 16:22:27,582][Thread-2:123145407864832][task_id:django][webservice.py:58][INFO][<WSGIRequest: GET '/webservice/test/'>]
+[2020-07-15 16:22:27,598][Thread-2:123145407864832][task_id:django.server][basehttp.py:157][INFO]["GET /webservice/test/ HTTP/1.1" 200 68]
+[2020-07-15 16:27:04,775][MainThread:4731628992][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 16:40:03,841][MainThread:4594908608][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 16:40:42,122][Thread-9:123145598550016][task_id:django][webservice.py:56][INFO][[0.15865525 0.5        0.84134475]]
+[2020-07-15 16:40:42,129][Thread-9:123145598550016][task_id:django][webservice.py:57][INFO][1.959963984540054]
+[2020-07-15 16:40:42,130][Thread-9:123145598550016][task_id:django][webservice.py:58][INFO][<WSGIRequest: GET '/webservice/test/'>]
+[2020-07-15 16:40:42,662][Thread-9:123145598550016][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 59, in test
+    return HttpResponse(ResultUtils.createResult(ResultUtils.SysConstants.ERROR_CODE_SUCCESS, "test OK", dist(1)))
+  File "/Users/chokkint/PycharmProjects/pyservice/pyservice/utils.py", line 120, in createResult
+    SysConstants.DATASET_KEY: obj}, cls=DateJsonEncoder)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/chokkint/PycharmProjects/pyservice/pyservice/utils.py", line 28, in default
+    return json.JSONEncoder.default(obj)
+TypeError: default() missing 1 required positional argument: 'o'
+[2020-07-15 16:40:42,665][Thread-9:123145598550016][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 92130]
+[2020-07-15 16:44:05,639][Thread-14:123145598550016][task_id:django][webservice.py:56][INFO][[0.15865525 0.5        0.84134475]]
+[2020-07-15 16:44:05,649][Thread-14:123145598550016][task_id:django][webservice.py:57][INFO][1.959963984540054]
+[2020-07-15 16:44:05,650][Thread-14:123145598550016][task_id:django][webservice.py:58][INFO][<WSGIRequest: GET '/webservice/test/'>]
+[2020-07-15 16:45:44,661][MainThread:4594908608][task_id:django.utils.autoreload][autoreload.py:222][INFO][/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py changed, reloading.]
+[2020-07-15 16:45:47,121][MainThread:4640841152][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 16:45:56,770][Thread-7:123145382543360][task_id:django][webservice.py:56][INFO][[0.15865525 0.5        0.84134475]]
+[2020-07-15 16:45:56,774][Thread-7:123145382543360][task_id:django][webservice.py:57][INFO][1.959963984540054]
+[2020-07-15 16:45:56,774][Thread-7:123145382543360][task_id:django][webservice.py:58][INFO][<WSGIRequest: GET '/webservice/test/'>]
+[2020-07-15 16:45:56,781][Thread-7:123145382543360][task_id:django.server][basehttp.py:157][INFO]["GET /webservice/test/ HTTP/1.1" 200 102]
+[2020-07-15 16:48:19,602][MainThread:4640841152][task_id:django.utils.autoreload][autoreload.py:222][INFO][/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py changed, reloading.]
+[2020-07-15 16:48:28,199][MainThread:4608921024][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 16:51:41,126][MainThread:4618894784][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 16:52:01,093][Thread-7:123145439752192][task_id:django][webservice.py:56][INFO][[0.15865525 0.5        0.84134475]]
+[2020-07-15 16:52:01,098][Thread-7:123145439752192][task_id:django][webservice.py:57][INFO][1.959963984540054]
+[2020-07-15 16:52:01,099][Thread-7:123145439752192][task_id:django][webservice.py:58][INFO][<WSGIRequest: GET '/webservice/test/'>]
+[2020-07-15 16:54:57,804][MainThread:4439739840][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 16:55:11,598][Thread-1:123145356775424][task_id:django][webservice.py:56][INFO][[0.15865525 0.5        0.84134475]]
+[2020-07-15 16:55:11,599][Thread-1:123145356775424][task_id:django][webservice.py:57][INFO][1.959963984540054]
+[2020-07-15 16:55:11,599][Thread-1:123145356775424][task_id:django][webservice.py:58][INFO][<WSGIRequest: GET '/webservice/test/'>]
+[2020-07-15 16:55:11,847][Thread-1:123145356775424][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 62, in test
+    str2 = str2+","+s
+TypeError: can only concatenate str (not "numpy.float64") to str
+[2020-07-15 16:55:11,848][Thread-1:123145356775424][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 67814]
+[2020-07-15 16:55:31,705][MainThread:4439739840][task_id:django.utils.autoreload][autoreload.py:222][INFO][/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py changed, reloading.]
+[2020-07-15 16:55:32,457][MainThread:4468354496][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 16:55:37,911][Thread-1:123145368395776][task_id:django][webservice.py:56][INFO][[0.15865525 0.5        0.84134475]]
+[2020-07-15 16:55:37,912][Thread-1:123145368395776][task_id:django][webservice.py:57][INFO][1.959963984540054]
+[2020-07-15 16:55:37,913][Thread-1:123145368395776][task_id:django][webservice.py:58][INFO][<WSGIRequest: GET '/webservice/test/'>]
+[2020-07-15 16:55:38,686][Thread-1:123145368395776][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 62, in test
+    str2 = str2+","+str(s)
+TypeError: 'numpy.ndarray' object is not callable
+[2020-07-15 16:55:38,687][Thread-1:123145368395776][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 67764]
+[2020-07-15 16:55:53,659][MainThread:4386180544][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 16:56:08,716][Thread-7:123145509285888][task_id:django][webservice.py:56][INFO][[0.15865525 0.5        0.84134475]]
+[2020-07-15 16:56:08,717][Thread-7:123145509285888][task_id:django][webservice.py:57][INFO][1.959963984540054]
+[2020-07-15 16:56:08,717][Thread-7:123145509285888][task_id:django][webservice.py:58][INFO][<WSGIRequest: GET '/webservice/test/'>]
+[2020-07-15 16:56:37,550][Thread-7:123145509285888][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 62, in test
+    str2 = str2+","+str(s)
+TypeError: 'numpy.ndarray' object is not callable
+[2020-07-15 16:56:37,564][Thread-7:123145509285888][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 69653]
+[2020-07-15 16:56:40,223][Thread-7:123145509285888][task_id:django][webservice.py:56][INFO][[0.15865525 0.5        0.84134475]]
+[2020-07-15 16:56:40,225][Thread-7:123145509285888][task_id:django][webservice.py:57][INFO][1.959963984540054]
+[2020-07-15 16:56:40,225][Thread-7:123145509285888][task_id:django][webservice.py:58][INFO][<WSGIRequest: GET '/webservice/test/'>]
+[2020-07-15 17:15:37,516][MainThread:4526783936][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-07-15 17:15:56,549][Thread-7:123145573474304][task_id:django][webservice.py:56][INFO][[0.15865525 0.5        0.84134475]]
+[2020-07-15 17:15:56,558][Thread-7:123145573474304][task_id:django][webservice.py:57][INFO][1.959963984540054]
+[2020-07-15 17:15:56,558][Thread-7:123145573474304][task_id:django][webservice.py:58][INFO][<WSGIRequest: GET '/webservice/test/'>]
+[2020-07-15 17:16:38,253][Thread-7:123145573474304][task_id:django.server][basehttp.py:157][INFO]["GET /webservice/test/ HTTP/1.1" 200 112]
+[2020-07-15 17:17:49,113][Thread-15:123145573474304][task_id:django][webservice.py:56][INFO][[0.15865525 0.5        0.84134475]]
+[2020-07-15 17:17:49,115][Thread-15:123145573474304][task_id:django][webservice.py:57][INFO][1.959963984540054]
+[2020-07-15 17:17:49,116][Thread-15:123145573474304][task_id:django][webservice.py:58][INFO][<WSGIRequest: GET '/webservice/test/'>]
+[2020-07-15 17:19:37,310][Thread-15:123145573474304][task_id:django.server][basehttp.py:157][INFO]["GET /webservice/test/ HTTP/1.1" 200 112]
+[2020-09-24 16:44:17,994][MainThread:4750872000][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 16:46:06,094][MainThread:4472503744][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 16:46:13,895][MainThread:4472503744][task_id:django.utils.autoreload][autoreload.py:222][INFO][/Users/chokkint/PycharmProjects/pyservice/pywebservice/urls.py changed, reloading.]
+[2020-09-24 16:46:14,464][MainThread:4561223104][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 16:50:08,381][MainThread:4503616960][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 16:50:43,498][MainThread:4578786752][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 16:51:00,956][MainThread:4741184960][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 16:51:31,602][MainThread:4607974848][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 16:51:39,563][Thread-1:123145334530048][task_id:django.request][log.py:228][WARNING][Not Found: /]
+[2020-09-24 16:51:39,563][Thread-1:123145334530048][task_id:django.server][basehttp.py:157][WARNING]["GET / HTTP/1.1" 404 2033]
+[2020-09-24 16:51:39,799][Thread-2:123145339785216][task_id:django.request][log.py:228][WARNING][Not Found: /favicon.ico]
+[2020-09-24 16:51:39,800][Thread-2:123145339785216][task_id:django.server][basehttp.py:157][WARNING]["GET /favicon.ico HTTP/1.1" 404 2084]
+[2020-09-24 16:51:45,926][Thread-2:123145339785216][task_id:django.request][log.py:228][WARNING][Not Found: /]
+[2020-09-24 16:51:45,927][Thread-2:123145339785216][task_id:django.server][basehttp.py:157][WARNING]["GET / HTTP/1.1" 404 2033]
+[2020-09-24 16:51:46,779][Thread-2:123145339785216][task_id:django.request][log.py:228][WARNING][Not Found: /webservice/]
+[2020-09-24 16:51:46,780][Thread-2:123145339785216][task_id:django.server][basehttp.py:157][WARNING]["GET /webservice/ HTTP/1.1" 404 2136]
+[2020-09-24 16:51:46,791][Thread-2:123145339785216][task_id:django.request][log.py:228][WARNING][Not Found: /favicon.ico]
+[2020-09-24 16:51:46,792][Thread-2:123145339785216][task_id:django.server][basehttp.py:157][WARNING]["GET /favicon.ico HTTP/1.1" 404 2084]
+[2020-09-24 16:51:49,159][Thread-2:123145339785216][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 25, in test2
+    ret = tt.test()
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py", line 10, in test
+    with open('data.json', 'r', encoding='utf8')as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'data.json'
+[2020-09-24 16:51:49,160][Thread-2:123145339785216][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 69796]
+[2020-09-24 16:51:49,230][Thread-2:123145339785216][task_id:django.request][log.py:228][WARNING][Not Found: /favicon.ico]
+[2020-09-24 16:51:49,231][Thread-2:123145339785216][task_id:django.server][basehttp.py:157][WARNING]["GET /favicon.ico HTTP/1.1" 404 2084]
+[2020-09-24 16:53:28,324][MainThread:4550180288][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 16:53:38,426][Thread-1:123145419796480][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 25, in test2
+    ret = tt.test()
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py", line 10, in test
+    with open('data.json', 'r', encoding='utf8')as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'data.json'
+[2020-09-24 16:53:38,427][Thread-1:123145419796480][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 69796]
+[2020-09-24 16:54:23,528][MainThread:4550180288][task_id:django.utils.autoreload][autoreload.py:222][INFO][/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py changed, reloading.]
+[2020-09-24 16:54:24,420][MainThread:4634652096][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 16:54:26,179][Thread-2:123145512501248][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 25, in test2
+    ret = tt.test()
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py", line 10, in test
+    with open('/static/data.json', 'r', encoding='utf8')as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/static/data.json'
+[2020-09-24 16:54:26,180][Thread-2:123145512501248][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 69836]
+[2020-09-24 16:54:26,531][Thread-2:123145512501248][task_id:django.request][log.py:228][WARNING][Not Found: /webservice/]
+[2020-09-24 16:54:26,531][Thread-2:123145512501248][task_id:django.server][basehttp.py:157][WARNING]["GET /webservice/ HTTP/1.1" 404 2136]
+[2020-09-24 16:54:27,019][Thread-2:123145512501248][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 25, in test2
+    ret = tt.test()
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py", line 10, in test
+    with open('/static/data.json', 'r', encoding='utf8')as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/static/data.json'
+[2020-09-24 16:54:27,022][Thread-2:123145512501248][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 69836]
+[2020-09-24 16:54:28,217][Thread-2:123145512501248][task_id:django.request][log.py:228][WARNING][Not Found: /]
+[2020-09-24 16:54:28,219][Thread-2:123145512501248][task_id:django.server][basehttp.py:157][WARNING]["GET / HTTP/1.1" 404 2033]
+[2020-09-24 16:54:31,559][Thread-1:123145507246080][task_id:django.request][log.py:228][WARNING][Not Found: /static]
+[2020-09-24 16:54:31,563][Thread-1:123145507246080][task_id:django.server][basehttp.py:157][WARNING]["GET /static HTTP/1.1" 404 2069]
+[2020-09-24 16:54:31,650][Thread-2:123145512501248][task_id:django.request][log.py:228][WARNING][Not Found: /favicon.ico]
+[2020-09-24 16:54:31,651][Thread-2:123145512501248][task_id:django.server][basehttp.py:157][WARNING]["GET /favicon.ico HTTP/1.1" 404 2084]
+[2020-09-24 16:54:39,446][MainThread:4550090176][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 16:54:46,038][Thread-2:123145581981696][task_id:django.request][log.py:228][WARNING][Not Found: /static]
+[2020-09-24 16:54:46,040][Thread-2:123145581981696][task_id:django.server][basehttp.py:157][WARNING]["GET /static HTTP/1.1" 404 2069]
+[2020-09-24 16:54:46,876][Thread-2:123145581981696][task_id:django.request][log.py:228][WARNING][Not Found: /]
+[2020-09-24 16:54:46,877][Thread-2:123145581981696][task_id:django.server][basehttp.py:157][WARNING]["GET / HTTP/1.1" 404 2033]
+[2020-09-24 16:54:47,637][Thread-2:123145581981696][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 25, in test2
+    ret = tt.test()
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py", line 10, in test
+    with open('/static/data.json', 'r', encoding='utf8')as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/static/data.json'
+[2020-09-24 16:54:47,638][Thread-2:123145581981696][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 69836]
+[2020-09-24 16:55:22,661][MainThread:4550090176][task_id:django.utils.autoreload][autoreload.py:222][INFO][/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py changed, reloading.]
+[2020-09-24 16:55:23,341][MainThread:4532047296][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 16:58:02,103][MainThread:4671212992][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 16:58:32,733][Thread-7:123145526018048][task_id:django.request][log.py:228][ERROR][Internal Server Error: /webservice/test/]
+Traceback (most recent call last):
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/chokkint/opt/anaconda3/envs/linkpower/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/webservice.py", line 25, in test2
+    ret = tt.test()
+  File "/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py", line 10, in test
+    with open('../data.json', 'r', encoding='utf8')as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '../data.json'
+[2020-09-24 16:58:32,739][Thread-7:123145526018048][task_id:django.server][basehttp.py:157][ERROR]["GET /webservice/test/ HTTP/1.1" 500 71859]
+[2020-09-24 17:01:04,841][MainThread:4671212992][task_id:django.utils.autoreload][autoreload.py:222][INFO][/Users/chokkint/PycharmProjects/pyservice/pywebservice/tests.py changed, reloading.]
+[2020-09-24 17:01:06,759][MainThread:4690464192][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 17:02:41,085][MainThread:4637662656][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 17:02:49,935][Thread-1:123145416151040][task_id:django.server][basehttp.py:157][INFO]["GET /webservice/test/ HTTP/1.1" 200 70]
+[2020-09-24 17:03:43,036][MainThread:4599803328][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 17:04:56,195][MainThread:4699807168][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 17:05:04,257][Thread-1:123145485869056][task_id:django.server][basehttp.py:157][INFO]["GET /webservice/test/ HTTP/1.1" 200 1099]
+[2020-09-24 17:37:41,704][MainThread:4430327232][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 17:39:18,874][MainThread:4410461632][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-24 17:54:12,542][MainThread:4410461632][task_id:django.utils.autoreload][autoreload.py:222][INFO][/Users/chokkint/PycharmProjects/pyservice/pyservice/settings.py changed, reloading.]
+[2020-09-24 17:54:17,090][MainThread:4535852480][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-25 14:46:54,017][MainThread:4531350976][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-09-25 14:55:42,728][MainThread:4638358976][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
